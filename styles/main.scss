@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;900&display=swap");
+
+/* Basic resets */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    scroll-behavior: smooth;
+}
+
+/* Basic styles */
+body {
+    @apply bg-[#E5DADA] dark:bg-[#02040F] selection:bg-cyan-400 dark:selection:bg-pink-500;
+}
