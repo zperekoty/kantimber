@@ -21,7 +21,7 @@ const Contacts: FunctionComponent = (): JSX.Element => (
                         <BsFillTelephoneInboundFill className="w-[45px] h-[45px] fill-[#E5DADA] dark:fill-[#02040F] mr-3 transition-all ease-in-out duration-300" />
 
                         <Link href="tel:79951933737">
-                            <a className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl transition-all ease-in-out duration-300">
+                            <a className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl hover:text-[#E59500] dark:hover:text-[#E59500] transition-all ease-in-out duration-300">
                                 +7 (995) 193-37-37
                             </a>
                         </Link>
@@ -31,7 +31,7 @@ const Contacts: FunctionComponent = (): JSX.Element => (
                         <BsFillTelephoneInboundFill className="w-[45px] h-[45px] fill-[#E5DADA] dark:fill-[#02040F] mr-3 transition-all ease-in-out duration-300" />
 
                         <Link href="tel:79951943737">
-                            <a className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl transition-all ease-in-out duration-300">
+                            <a className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl hover:text-[#E59500] dark:hover:text-[#E59500] transition-all ease-in-out duration-300">
                                 +7 (995) 194-37-37
                             </a>
                         </Link>
@@ -43,7 +43,7 @@ const Contacts: FunctionComponent = (): JSX.Element => (
                         <Link href="https://wa.me/79951943737">
                             <a
                                 target="_blank"
-                                className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl transition-all ease-in-out duration-300"
+                                className="text-[#E5DADA] dark:text-[#02040F] text-base 2xl:text-2xl hover:text-[#E59500] dark:hover:text-[#E59500] transition-all ease-in-out duration-300"
                             >
                                 +7 (995) 194-37-37
                             </a>
