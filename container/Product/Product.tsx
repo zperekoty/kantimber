@@ -11,7 +11,7 @@ import { productProps, variants } from "../../types";
 const variants: variants = { x: [100, 0], opacity: [0, 1] };
 
 const Product: FunctionComponent<productProps> = ({ product }): JSX.Element => (
-    <AppWrap idName="product" classes="pt-[111px] lg:pt-[111px]">
+    <AppWrap idName="product" classes="pt-[111px]">
         <MotionWrap variants={variants} duration={0.85} ease="easeInOut">
             <section className="flex justify-center items-center flex-col">
                 <h1 className="text-4xl 2xl:text-6xl text-[#02040F] dark:text-[#E5DADA] capitalize transition-all ease-in-out duration-300 mb-8">
@@ -30,7 +30,7 @@ const Product: FunctionComponent<productProps> = ({ product }): JSX.Element => (
                                 className="transition-all hover:scale-110 ease-in-out duration-300"
                             />
                         ) : (
-                            <BsImage className="fill-[#E5DADA] dark:fill-[#02040F] w-full h-[350px] lg:h-[500px] 2xl:h-[700px] transition-all ease-in-out duration-300" />
+                            <BsImage className="fill-[#E5DADA] dark:fill-[#02040F] w-full h-[350px] lg:h-[500px] 2xl:h-[700px] hover:scale-110 transition-all ease-in-out duration-300" />
                         )}
                     </div>
 

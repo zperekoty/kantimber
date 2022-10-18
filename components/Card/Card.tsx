@@ -21,7 +21,7 @@ const Card: FunctionComponent<cardProps> = ({ product }): JSX.Element => (
                         className="transition-all hover:scale-110 ease-in-out duration-300"
                     />
                 ) : (
-                    <BsImage className="fill-[#E5DADA] dark:fill-[#02040F] w-full h-[230px] transition-all ease-in-out duration-300" />
+                    <BsImage className="fill-[#E5DADA] dark:fill-[#02040F] w-full h-[230px] hover:scale-110 transition-all ease-in-out duration-300" />
                 )}
             </div>
 
